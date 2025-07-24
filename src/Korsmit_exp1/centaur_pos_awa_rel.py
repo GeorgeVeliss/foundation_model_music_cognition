@@ -136,7 +136,7 @@ for stimulus, octave in zip(IDim_stimuli["instr"], IDim_stimuli["octave"]):
     results_df = pd.DataFrame(results_list)
 
     # Save to CSV
-    results_df.to_csv("centaur_responses_pos_rel_awa_170725.csv", index=False)
+    results_df.to_csv("centaur_responses_pos_awa_rel_240725.csv", index=False)
 
 # Prompt for participant 0002 of IDim
 # prompt = (
